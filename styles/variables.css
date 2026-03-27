@@ -5,10 +5,12 @@
 
 :root {
   --page-background: url("../images/cover-image-dark.png");
+  --main-bg-color: #000028;
   --main-font: 'IBM Plex mono';
   --main-font-regular: 400;
   --main-font-bold: 700;
   --main-titles-color: #DB00FF;
+  --main-titles-shadow-color: #FF0070;
   --accent-line-height: 130%;
   --accent-font-size: 18px;
   --accent-color: #FF0070;

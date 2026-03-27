@@ -10,4 +10,11 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --page-background: url("../images/cover-image-light.png");
+  --main-bg-color: #FFF1F7;
+  --main-titles-color: #FFC2E6;
+  --main-titles-shadow-color: #FF8DCB;
+  --accent-color: #FF8DCB;
+  --accent-title-color: #353430;
+  --accent-text-color: #353430;
+  
 }
