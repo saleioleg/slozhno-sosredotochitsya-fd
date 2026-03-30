@@ -86,11 +86,11 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
-  pointer-events: none
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  cursor: pointer;  
+  cursor: pointer;
   outline: 1px solid rgba(255, 0, 112, 0.4);
 }
 
@@ -107,7 +107,7 @@
   text-shadow: 4px 4px 0 var(--main-titles-shadow-color);
 }
 
-.header__theme-description {  
+.header__theme-description {
   align-self: center;
   font-size: var(--accent-font-size);
   font-weight: var(--main-font-bold);
@@ -120,7 +120,6 @@
 }
 
 /* MAIN */
-
 
 .main {
   display: grid;
@@ -153,7 +152,6 @@
 
 .concentration__links {
   text-shadow: 2px 1px 0 var(--accent-color);
-  
 }
 
 .concentration__links:focus-visible {
@@ -217,7 +215,6 @@
 /* МЕДИА ЗАПРОСЫ */
 
 @media (min-width: 768px) {
-
   /* HEADER */
 
   .header {
@@ -296,12 +293,11 @@
   .gallery {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    grid-template-areas: 
-    "title title title"
-    "sunset sunset ice-cream"
-    "tape books ice-cream"
-    "tape street street"
-    ;
+    grid-template-areas:
+      "title title title"
+      "sunset sunset ice-cream"
+      "tape books ice-cream"
+      "tape street street";
   }
 
   .gallery__title {
