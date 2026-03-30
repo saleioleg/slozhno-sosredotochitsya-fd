@@ -84,8 +84,9 @@
   padding: 1.5px 13px;
 }
 
-.header__theme-menu-button_type_dark {
-  outline: 1px solid var(--accent-color);
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+  pointer-events: none
 }
 
 .header__theme-menu-button:hover {
@@ -335,12 +336,13 @@
 @media (min-width: 1024px) {
   .header {
     min-height: 768px;
-    padding-inline-end: 0;
+    padding-inline-end: 20px;
   }
 
   .header__theme-menu {
     justify-self: center;
     align-self: start;
+    padding-inline-start: 23px;
   }
 
   .header__theme-menu-list {
