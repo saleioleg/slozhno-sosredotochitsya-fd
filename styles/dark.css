@@ -20,6 +20,6 @@
   --section-title-color: #FF0070;
 }
 
-:root.theme-dark .header__theme-decorated-text{
+:root.theme-dark .header__theme-decorated-text {
   display: inline;
 }
