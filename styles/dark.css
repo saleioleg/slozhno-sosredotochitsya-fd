@@ -13,7 +13,13 @@
   --main-bg-color: #000028;
   --main-titles-color: #DB00FF;
   --main-titles-shadow-color: #FF0070;
+  --nav-menu-text-color: #FF0070;
   --accent-color: #FF0070;
   --accent-title-color: #000028;
   --accent-text-color: #F1B2CE;
+  --section-title-color: #FF0070;
+}
+
+:root.theme-dark .header__theme-decorated-text{
+  display: inherit;
 }
