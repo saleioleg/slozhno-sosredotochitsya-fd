@@ -114,11 +114,6 @@
   line-height: var(--accent-line-height);
 }
 
-.title-decor {
-  background-color: var(--accent-color);
-  color: var(--accent-title-color);
-}
-
 /* MAIN */
 
 .main {

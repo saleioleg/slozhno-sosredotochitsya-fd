@@ -24,7 +24,7 @@
   display: none;
 }
 
-.header__theme-menu-button:hover {
+:root.theme-light .header__theme-menu-button:hover {
   outline-color: rgba(50, 49, 45, 0.4);
 }
 
@@ -43,5 +43,9 @@
 
   :root .header__theme-decorated-text {
     display: none;
+  }
+
+  .header__theme-menu-button:hover {
+    outline-color: rgba(50, 49, 45, 0.4);
   }
 }
