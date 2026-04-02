@@ -23,3 +23,7 @@
 :root.theme-dark .header__theme-decorated-text {
   display: inline;
 }
+
+:root.theme-dark .header__theme-menu-button:hover {
+  outline-color: rgba(255, 0, 112, 0.4);
+}

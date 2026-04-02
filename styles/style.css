@@ -235,7 +235,7 @@
   }
 
   .header__theme-description {
-    width: 56vh;
+    width: 47vw;
     
     justify-self: flex-end;
   }
@@ -345,7 +345,7 @@
   }
 
   .header__theme-description {
-    width: 76vh;
+    width: 48vw;
   }
 
   .concentration__difficulties {
